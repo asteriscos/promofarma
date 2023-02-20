@@ -1,0 +1,30 @@
+.loading-wrapper {
+  .block {
+    display: block;
+    width: 100%;
+    color: #000000;
+    background: linear-gradient(-90deg, #FFF, var(--green-color), #FFF, var(--green-color));
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 1.25s ease infinite;
+    -moz-animation: Gradient 1.25s ease infinite;
+    animation: Gradient 1.25s ease infinite;
+    border-radius: 5px;
+    line-height: 4px;
+  }
+
+  box-sizing: border-box;
+  display:block;
+  padding:16px;
+  height: 370px;
+
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 100% 0%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
