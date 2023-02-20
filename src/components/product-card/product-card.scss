@@ -48,7 +48,7 @@
     padding: 10px 30px;
     cursor: pointer;
 
-    &[disabled] {
+    &[data-incart="true"] {
       background-color: var(--light-grey-color);
     }
 
